@@ -1,0 +1,3 @@
+# Stack Overflow Bug in Hack
+
+This repository demonstrates a common stack overflow error in Hack programming language.  The `foo` function recursively calls itself without a proper base case, leading to infinite recursion when called with larger inputs. This results in a stack overflow error.  The solution demonstrates how to correct this using an appropriate base case. The files demonstrating the error and solution are `bug.hack` and `bugSolution.hack` respectively.
